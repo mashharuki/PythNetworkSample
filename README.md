@@ -196,3 +196,4 @@ Pyth Network は、正確かつ高解像度の金融市場データをオンチ�
 6. [Price Feed IDs](https://www.pyth.network/developers/price-feed-ids)
 7. [Getting Started](https://docs.pyth.network/price-feeds/getting-started)
 8. [チュートリアル](https://docs.pyth.network/price-feeds/create-your-first-pyth-app/evm/part-1)
+9. [GitHub - Examples](https://github.com/pyth-network/pyth-examples/tree/main/price_feeds/evm/oracle_swap)

@@ -1,0 +1,21 @@
+{
+  "name": "contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "forge build",
+    "test": "forge test -vvv",
+    "deploy": "forge script scripts/OracleDeployment.s.sol --rpc-url $RPC_URL --broadcast"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pythnetwork/pyth-sdk-solidity": "^4.0.0"
+  }
+}
