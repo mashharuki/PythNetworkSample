@@ -20,20 +20,20 @@ const CONFIG = {
   // You can find the list of price feed ids at https://pyth.network/developers/price-feed-ids
   baseToken: {
     name: "BRL",
-    erc20Address: "0xB3a2EDFEFC35afE110F983E32Eb67E671501de1f",
+    erc20Address: "0xa9322C8424580E0b38F3E90FdDC73e009609fB4b",
     pythPriceFeedId:
-      "08f781a893bc9340140c5f89c8a96f438bcfae4d1474cc0f688e3a52892c7318",
+      "0xd2db4dbf1aea74e0f666b0e8f73b9580d407f5e5cf931940b06dc633d7a95906",
     decimals: 18,
   },
   quoteToken: {
     name: "USD",
-    erc20Address: "0x8C65F3b18fB29D756d26c1965d84DBC273487624",
+    erc20Address: "0xD41E1A91876c237521522DbD5ef2985e6afE1AD9",
     pythPriceFeedId:
-      "1fc18861232290221461220bd4e2acd1dcdfbc89c84092c93c18bdc7756c1588",
+      "0xd2db4dbf1aea74e0f666b0e8f73b9580d407f5e5cf931940b06dc633d7a95906",
     decimals: 18,
   },
   swapContractAddress: "0x5B907Bd1b59760169a0946bD0A9044fF3E15c3e9", //ここを任意のアドレスに変える (元は0x15F9ccA28688F5E6Cbc8B00A8f33e8cE73eD7B02)
-  pythContractAddress: "0xff1a0f4744e8582DF1aE09D5611b887B6a12925C",
+  pythContractAddress: "0x0708325268dF9F66270F1401206434524814508b",
   hermesUrl: "https://hermes.pyth.network",
   mintQty: 100,
 };
